@@ -15,14 +15,14 @@ public class Employee {
                 System.out.println(employee.employeeInfo());
     }
 
-    String surname;
-    String firstName;
-    String patronymic;
-    String post;
-    String email;
-    String phoneNumber;
-    Double salaryUSD;
-    int age;
+    private String surname;
+    private String firstName;
+    private String patronymic;
+    private String post;
+    private String email;
+    private String phoneNumber;
+    private Double salaryUSD;
+    private int age;
 
     Employee(String surname,
              String firstName,
